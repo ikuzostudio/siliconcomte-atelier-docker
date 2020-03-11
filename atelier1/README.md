@@ -16,4 +16,4 @@ Le but est de créer votre premier container, vous permettant de visualiser cett
 * Mettre à jour le repository des paquets de Debian puis installer le paquet `apache2`
 * Copier les fichiers `index.html` et `styles.css` dans le container
 * Exposer le port d'apache par défaut (`80`)
-* Faire en sorte qu'Apache se lance en foreground (background par défaut)
+* Faire en sorte qu'Apache se lance en foreground (background par défaut) (la commande : `/usr/sbin/apache2ctl -D FOREGROUND`)

@@ -16,4 +16,4 @@ En repartant du premier exercice, vous devez créer un container permettant de b
 * Build les assets avec la commande `npm run build`
 * Copier les fichiers `index.html` et `build/styles.css` dans le container
 * Exposer le port d'apache par défaut (`80`)
-* Faire en sorte qu'Apache se lance en foreground (background par défaut)
+* Faire en sorte qu'Apache se lance en foreground (background par défaut) (la commande : `/usr/sbin/apache2ctl -D FOREGROUND`)
